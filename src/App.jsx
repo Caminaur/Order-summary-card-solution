@@ -2,6 +2,7 @@ import hero from "./assets/images/illustration-hero.svg";
 import musicIcon from "./assets/images/icon-music.svg";
 import backgroundImage from "./assets/images/pattern-background-desktop.svg";
 import backgroundMobile from "./assets/images/pattern-background-mobile.svg";
+import Attribution from "./Attribution";
 
 function App() {
   const proceedButton = (
@@ -62,6 +63,8 @@ function App() {
           {cancelButton}
         </div>
       </div>
+
+      <Attribution theme="1" />
     </div>
   );
 }
