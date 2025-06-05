@@ -52,7 +52,6 @@ Users should be able to:
 ### Useful resources
 
 - [Tailwind CSS documentation](https://tailwindcss.com/docs) - Helped with utility-first responsive design and transitions
-- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) - For component prop validation
 - [Frontend Mentor community](https://www.frontendmentor.io/community) - For helpful discussions and examples
 
 ## Author
