@@ -29,29 +29,32 @@ function App() {
           aria-hidden="true"
         />
       </picture>
-      <div className="w-full bg-white rounded-t-2xl rounded-b-2xl overflow-hidden flex flex-col items-center justify-center gap-8 max-w-[450px] z-20 custom-shadow">
+      <div className="w-full bg-white rounded-t-2xl rounded-b-2xl overflow-hidden flex flex-col items-center justify-center gap-10 max-w-[450px] z-20 custom-shadow">
         <img
           className="object-cover"
           src={hero}
           alt="Picture of a woman listening to music while dancing"
         />
-        <div className="flex flex-col items-center gap-6 px-6">
-          <p className="font-bold text-xl text-neutral-dark-blue">
+        <div className="flex flex-col items-center gap-10 px-6">
+          <p className="font-bold text-3xl text-neutral-dark-blue">
             Order Summary
           </p>
-          <p className="text-neutral-desaturated-blue text-center px-4 text-sm">
+          <p className="text-neutral-desaturated-blue text-center px-6 text-sm">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
 
-          <div className="flex justify-around items-center bg-gray-100  w-full py-4 rounded-lg">
+          <div
+            id="plans"
+            className="flex items-center bg-gray-100 sm:gap-6 gap-2 px-2 sm:px-4  w-full py-4 rounded-lg"
+          >
             <img src={musicIcon} alt="" aria-hidden="true" />
             <div>
               <p className="font-bold text-neutral-dark-blue">Annual Plan</p>
               <p className="text-neutral-desaturated-blue">$59.99/year</p>
             </div>
             <a
-              className="underline text-primary-bright-blue font-semibold transition-all duration-300 hover:opacity-75 hover:no-underline cursor-pointer"
+              className="underline text-primary-bright-blue font-semibold transition-all duration-300 hover:opacity-75 hover:no-underline cursor-pointer ml-auto"
               href="#"
             >
               Change
